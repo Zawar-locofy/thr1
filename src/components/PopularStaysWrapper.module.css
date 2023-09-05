@@ -1,0 +1,385 @@
+.popularStays1 {
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  width: 69.08rem;
+}
+.arrowRightIcon,
+.popularStays1,
+.viewAllStays {
+  position: relative;
+  flex-shrink: 0;
+}
+.viewAllStays {
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  color: var(--color-cornflowerblue-200);
+  text-align: right;
+  display: inline-block;
+  width: 8.79rem;
+}
+.arrowRightIcon {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+}
+.viewAllStaysButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--primary-contrast);
+  border-radius: var(--br-12xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.popularStaysHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.matterhornSuitesImage {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs);
+  max-width: 100%;
+  overflow: hidden;
+  height: 12.5rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.entireBungalow {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  color: var(--color-gray-100);
+}
+.matterhornSuites,
+.night {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.matterhornSuites {
+  font-size: var(--font-size-3xl);
+  text-transform: capitalize;
+}
+.night {
+  font-size: var(--font-size-lg);
+}
+.stayDetails,
+.stayDetailsRows {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stayDetailsRows {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-7xs);
+}
+.stayDetails {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-2xs);
+}
+.div,
+.reviews {
+  position: absolute;
+  top: 0;
+  left: 3.35rem;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 13.52rem;
+}
+.div {
+  left: 1.27rem;
+  font-weight: 500;
+  width: 1.5rem;
+}
+.parent,
+.vectorIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.vectorIcon {
+  height: 90.47%;
+  width: 37.54%;
+  right: 62.46%;
+  bottom: 9.53%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.parent {
+  width: 2.77rem;
+  height: 1.19rem;
+  color: var(--color-darkslategray-200);
+}
+.button,
+.rating {
+  position: relative;
+  color: var(--color-cornflowerblue-100);
+}
+.rating {
+  width: 16.88rem;
+  height: 1.19rem;
+}
+.button {
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.46px;
+  line-height: 1.63rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--components-button-large);
+  text-align: left;
+}
+.moreDetailsButton {
+  cursor: pointer;
+  border: 1px solid var(--color-lavender);
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: var(--br-9xs);
+  box-sizing: border-box;
+  height: 2.88rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hotelCard,
+.hotelCard1,
+.stayDetails1 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.hotelCard {
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-smi);
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  width: 25%;
+}
+.hotelCard4:hover,
+.hotelCard5:hover,
+.hotelCard:hover {
+  background-color: var(--color-gainsboro-200);
+  cursor: pointer;
+}
+.hotelCard1,
+.stayDetails1 {
+  flex-direction: row;
+}
+.hotelCard1 {
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  justify-content: center;
+  width: 25%;
+}
+.stayDetails1 {
+  justify-content: flex-start;
+  gap: var(--gap-2xs);
+}
+.arcticHut {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-3xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+}
+.stayDetails2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.reviews2 {
+  position: absolute;
+  top: 0;
+  left: 3.36rem;
+  letter-spacing: 0.04em;
+  display: inline-block;
+  width: 13.52rem;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 90.47%;
+  width: 37.58%;
+  top: 0;
+  right: 62.42%;
+  bottom: 9.53%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hotelCard4,
+.hotelCard5 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-3xs);
+  background-color: var(--primary-contrast);
+  border: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-mini) var(--padding-smi);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xl);
+  width: 25%;
+}
+.hotelCard41,
+.hotelCards {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+}
+.hotelCard41 {
+  flex: 1;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  width: 25%;
+}
+.hotelCards {
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  font-size: var(--font-size-base);
+}
+.viewAllStays1 {
+  position: relative;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+  display: inline-block;
+  width: 8.79rem;
+  flex-shrink: 0;
+}
+.mobileViewAllStays,
+.popularStays {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mobileViewAllStays {
+  border-radius: var(--br-12xl);
+  background-color: var(--primary-contrast);
+  display: none;
+  flex-direction: row;
+  gap: var(--gap-3xs);
+  text-align: right;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-200);
+}
+.popularStays {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1200px) {
+  .hotelCard,
+  .hotelCard4,
+  .hotelCard5 {
+    width: 25% !important;
+  }
+  .hotelCards {
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+    margin-left: -0.75rem;
+    margin-right: -3.12rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .viewAllStaysButton {
+    display: none;
+  }
+  .hotelCard {
+    width: 100%;
+  }
+  .hotelCard1 {
+    width: 33.33%;
+  }
+  .hotelCard4 {
+    width: 100%;
+  }
+  .hotelCard5 {
+    width: 33.33% !important;
+  }
+  .hotelCard41 {
+    display: none;
+    width: 33.33%;
+  }
+  .hotelCards {
+    margin-right: -3.12rem;
+    margin-left: -0.75rem;
+  }
+  .viewAllStays1 {
+    width: auto;
+  }
+  .mobileViewAllStays {
+    display: flex;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 420px) {
+  .popularStays1 {
+    font-size: var(--font-size-3xl);
+  }
+  .matterhornSuites {
+    font-size: var(--font-size-xl);
+  }
+  .hotelCard,
+  .moreDetailsButton {
+    width: 100% !important;
+  }
+  .hotelCard {
+    margin-bottom: 1.25rem;
+  }
+  .hotelCard1 {
+    width: 100%;
+    flex: unset;
+    align-self: stretch;
+  }
+  .hotelCard4,
+  .hotelCard5 {
+    display: flex;
+    width: 100% !important;
+  }
+  .hotelCard41 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .hotelCards {
+    flex-direction: column;
+    padding-right: 0;
+    box-sizing: border-box;
+    margin-right: -0.75rem;
+    margin-left: -0.75rem;
+  }
+}

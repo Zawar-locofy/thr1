@@ -1,0 +1,15 @@
+.letsExplore {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-42xl);
+  line-height: 4.19rem;
+  font-family: var(--font-baloo-bhai);
+  color: var(--primary-contrast);
+  text-align: center;
+}
+@media screen and (max-width: 420px) {
+  .letsExplore {
+    font-size: var(--font-size-23xl);
+    line-height: 3rem;
+  }
+}

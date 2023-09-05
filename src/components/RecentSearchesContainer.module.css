@@ -1,0 +1,199 @@
+.recentSearches,
+.sin {
+  position: relative;
+  letter-spacing: 0.04em;
+}
+.recentSearches {
+  align-self: stretch;
+  text-transform: uppercase;
+}
+.sin {
+  text-transform: capitalize;
+  display: inline-block;
+  width: 2.8rem;
+  flex-shrink: 0;
+}
+.flightIcons {
+  position: relative;
+  width: 7.33rem;
+  height: 1.5rem;
+}
+.lax {
+  position: relative;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  display: inline-block;
+  text-align: right;
+  width: 3.2rem;
+  flex-shrink: 0;
+}
+.toAndFrom {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.departOn7Container {
+  position: relative;
+  font-size: var(--font-size-xl);
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--color-black);
+}
+.flightMainContainer,
+.recentSearches1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flightMainContainer {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: column;
+  padding: var(--padding-xl);
+  gap: var(--gap-2xl);
+}
+.recentSearches1 {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mini);
+}
+.hotelIcon {
+  position: relative;
+  width: 4.09rem;
+  height: 4.09rem;
+}
+.hotel1 {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: left;
+}
+.hotel {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.attractionsIcon {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 4.09rem;
+  height: 4.09rem;
+}
+.attractions1 {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: center;
+}
+.taxiIcon {
+  position: relative;
+  border-radius: var(--br-base);
+  width: 4.38rem;
+  height: 4.09rem;
+}
+.taxi1 {
+  position: relative;
+  font-size: var(--components-button-large-size);
+  letter-spacing: 0.04em;
+  font-family: var(--components-button-large);
+  color: var(--color-gray-100);
+  text-align: center;
+  display: inline-block;
+  width: 2.01rem;
+}
+.tripMenus {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.prepareMenu {
+  justify-content: center;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-lightgray);
+}
+.flightDetails,
+.prepareMenu,
+.upcomingFlightSection,
+.upcomingFlightSection1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.flightDetails {
+  justify-content: center;
+  gap: var(--gap-17xl);
+  font-size: var(--font-size-5xl);
+  color: var(--color-cornflowerblue-200);
+}
+.upcomingFlightSection,
+.upcomingFlightSection1 {
+  justify-content: flex-start;
+}
+.upcomingFlightSection1 {
+  gap: var(--gap-xl);
+}
+.upcomingFlightSection {
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-darkslategray-200);
+  font-family: var(--components-button-large);
+}
+@media screen and (max-width: 1200px) {
+  .flightMainContainer {
+    width: 32.5rem;
+  }
+}
+@media screen and (max-width: 960px) {
+  .flightMainContainer {
+    width: 100%;
+    display: block;
+    margin-bottom: 1.88rem;
+    flex: unset;
+    align-self: stretch;
+  }
+  .recentSearches1 {
+    flex-direction: column;
+  }
+  .prepareMenu {
+    width: 100%;
+  }
+  .flightDetails {
+    flex-direction: column;
+  }
+  .upcomingFlightSection {
+    display: block;
+  }
+}
+@media screen and (max-width: 420px) {
+  .hotel {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    width: 33.33%;
+    text-align: center;
+  }
+  .tripMenus {
+    flex-direction: row;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1.75rem;
+    margin-right: -1.75rem;
+  }
+}

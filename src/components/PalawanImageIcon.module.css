@@ -1,0 +1,10 @@
+.palawanimageIcon {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  max-width: 100%;
+  overflow: hidden;
+  height: 15.13rem;
+  flex-shrink: 0;
+  object-fit: cover;
+}
